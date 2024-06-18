@@ -1,7 +1,7 @@
 import { createSlice, createEntitiAdapter } from '@reduxjs/toolkit';
 impotr { removeUser } from './usersSlice.js';
 
-const postsAdapter = createEntityAdapter();
+const postsAdapter = createEntitiAdapter();
 const initialState = postsAdapter.getInitialState();
 
 const postsSlice = createSlice({
