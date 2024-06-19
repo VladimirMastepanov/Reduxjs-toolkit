@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import usersReducer from './usersSlice.js';
-import postsReducer from './postsSlice.js';
+import usersReducer from '../features/users/usersSlice.js';
+import postsReducer from '../features/posts/postsSlice.js';
 
 const store = configureStore({
   reducer: {
