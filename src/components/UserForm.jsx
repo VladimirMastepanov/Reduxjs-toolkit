@@ -14,3 +14,14 @@ const UserForm = () => {
     setName('');
   };
   
+return (
+  <form onSubmit={handleSubmit}>
+    <input 
+      type='text'
+      value={name}
+      onChange={(e) => setName(e.target.value)}
+      placeholder='Enter user name'/>
+    <button type='Submit'>Add user</button>
+  </form>
+  );
+};
