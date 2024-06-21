@@ -25,3 +25,5 @@ return (
   </form>
   );
 };
+
+export default UserForm;
